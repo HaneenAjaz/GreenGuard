@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block pagetitle %}Result{% endblock %}
+
+{% block body %}
+<div style="text-align: center; margin-top: 50px;">
+  <h2>Plant Health Status:</h2>
+  <h1 class="{% if result == 'Healthy' %}green-text{% else %}red-text{% endif %}" style="font-weight: bold;">
+    {{ result }}
+  </h1>
+</div>
+{% endblock %}

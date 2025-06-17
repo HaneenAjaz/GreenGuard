@@ -1,0 +1,19 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE/editor config
+.vscode/
+.idea/
+
+# Ignore model files (optional if they’re large)
+*.pth
+
+# Ignore unwanted text files
+faaltu.txt
+
+# Ignore large datasets (or include sample only)
+Dataset/PlantDataset/train/*
+Dataset/PlantDataset/valid/*
